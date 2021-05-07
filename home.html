@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+     <title>Stranger Things</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="style.css">
+     <script src="index.js"></script>
+     <style>
+          body,
+          html {
+               height: 100%;
+               margin: 0;
+               font-family: Arial, Helvetica, sans-serif;
+          }
+
+          .hero-image {
+               background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("img/st-logo.png");
+               height: 50%;
+               background-position: center;
+               background-repeat: no-repeat;
+               background-size: cover;
+               position: relative;
+          }
+
+          .hero-text {
+               text-align: center;
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               transform: translate(-50%, -50%);
+               color: white;
+          }
+     </style>
+</head>
+
+<body>
+     <div id="topNav" class='navbar'>
+          <header>
+               <div class="topnav" id="myTopnav">
+                    <a href="home.html" class="active">Home</a>
+                    <a href="https://www.netflix.com/in/title/80057281" target="_blank">Watch Now</a>
+                    <div class="dropdown">
+                         <button class="dropbtn">Seasons 
+                              <i class="fa fa-caret-down"></i>
+                         </button>
+                         <div class="dropdown-content">
+                              <a href="season 1.html">Season 1</a>
+                              <a href="season 2.html">Season 2</a>
+                              <a href="season 3.html">Season 3</a>
+                         </div>
+                    </div>
+                    <a href="Cast and Crew.html">Cast & Crew</a>
+                    <!-- <a href="#about">About</a>
+                    <a href="#contact">Contact</a> -->
+                    <a href="javascript:void(0);" style="font-size:15px;" class="icon"
+                         onclick="myFunction()">&#9776;</a>
+               </div>
+          </header>
+     </div>
+     <div class="hero-image">
+          <div class="hero-text">
+               <h1 style="font-size:50px; margin-bottom: 0;">Stranger Things</h1>
+               <p style="margin-top: 0;">(Welcome to Hawkins)</p>
+          </div>
+     </div>
+     <div class='content'>
+          <!-- Content -->
+          <div class='paragraph'>
+               <h1>Stranger Things</h1>
+               <h3>
+                   Stranger Things is set in the fictional rural town of Hawkins, Indiana, during the early 1980s. The nearby Hawkins National Laboratory ostensibly performs scientific research for the United States Department of Energy, but secretly does experiments into the paranormal and supernatural, including those that involve human test subjects. Inadvertently, they have created a portal to an alternate dimension, "the Upside Down". The influence of the Upside Down starts to affect the unknowing residents of Hawkins in calamitous ways.
+               </h3>
+          </div>
+          <!-- Season Cards -->
+          <div class="sectionHeading">
+               <h1>Seasons</h1>
+          </div>
+          <div id='courses' class='season'>
+               <div class='card'>
+                    <div class="zoom-img">
+                         <a href="season 1.html"><img src="img/st1.jfif" alt="Season1 poster"></a>
+                    </div>
+                    <a href="season 1.html"><button class="btn">Season 1</button></a>
+               </div>
+               <div class='card'>
+                    <div class="zoom-img">
+                         <a href="season 2.html"><img src="img/st2.jfif" alt="Season2 poster"></a>
+                    </div>
+                    <a href="season 2.html"><button class="btn">Season 2</button></a>
+               </div>
+               <div class='card'>
+                    <div class="zoom-img">
+                         <a href="season 3.html"><img src="img/st3.jpg" alt="Season3 poster"></a>
+                    </div>
+                    <a href="season 3.html"><button class="btn">Season 3</button></a>
+               </div>
+          </div>
+          <div class='paragraph'>
+               <h3>
+                    Stranger Things is an American science-fiction horror television series created by the Duffer Brothers and streaming on Netflix. The brothers serve as showrunners and are executive producers along with Shawn Levy and Dan Cohen. The series premiered on Netflix on July 15, 2016. Set in the 1980s in the fictional town of Hawkins, Indiana, the first season focuses on the investigation into the disappearance of a young boy (Will Byers) amid supernatural events occurring around the town, including the appearance of a girl with psychokinetic abilities. The second season focuses on Will's side effects from being in the Upside Down with its entities crawling into the real world. The third season focuses Eleven and Mike's relationship as the kids continue their battle against the Upside Down entities.
+               </h3>
+          </div>
+
+          <div class="footer">
+               <footer>
+                    <div class="left-content">
+                         <h1>Awards And Achievements</h1>
+                         <p>Stranger Things has attracted record viewership on Netflix and has a broad, active and international fan base. The series has received critical acclaim for its characterization, pacing, atmosphere, acting, soundtrack, directing, writing, and homages to 1980s films. The series has received multiple awards and nominations including 39 Primetime Emmy Award nominations (and six wins), four Golden Globe Award nominations, a British Academy Television Award nomination, two Directors Guild of America Award nominations, three Writers Guild of America Award nominations, and three Grammy Award nominations. It has won a Screen Actors Guild Award for Outstanding Performance by an Ensemble in a Drama Series, two American Film Institute awards, a Critics' Choice Television Award, and three People's Choice Awards, among others.
+                         </p>
+                    </div>
+                    <div class='right-content'>
+                         <h1>Quick Link's</h1>
+                         <ul>
+                              <li><a href="#topNav"><h3>Home</h3></a></li>
+                              <li><a href="Cast and Crew.html"><h3>Cast & Crew</h3></a></li>
+                              <li><a href="season 1.html"><h3>Seasons</h3></a></li>
+                              <!-- <li><a href="#"><h3>About US</h3></a></li>
+                              <li><a href="#"><h3>Contact US</h3></a></li> -->
+                         </ul>
+                    </div>
+               </footer>
+          </div>
+
+     </div>
+</body>
+
+</html>
